@@ -10,8 +10,9 @@ namespace DotNetTopics
         {
             
             Console.WriteLine("Hello Form Main");
-            ParallelClass.Run();
-            
+            ParallelClass.RunParallelFor();
+            ParallelClass.RunParallelForEach();
+
             Console.ReadKey();
         }
     }

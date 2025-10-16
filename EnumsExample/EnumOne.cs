@@ -8,9 +8,31 @@ namespace DotNetTopics.EnumsExample
 {
     internal class EnumOne
     {
-        public static void Print()
+        public int Ranks {  get; set; }
+        public string Name { get; set; }
+        public static string CheckRank(int rank)
         {
-            Console.WriteLine("Hello From Enums");
+            
+            switch (rank)
+            {
+                case (int)Rank.First:
+                    return "First";
+                case (int)Rank.Second:
+                    return "Second";
+                case (int)Rank.Third:
+                    return "Third";
+                default:
+                    return "General";
+
+            }
+
+        }
+
+        public enum Rank
+        {
+            First = 1,
+            Second,
+            Third
         }
     }
 }
