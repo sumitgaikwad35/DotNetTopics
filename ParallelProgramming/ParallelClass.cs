@@ -21,7 +21,7 @@ namespace DotNetTopics.ParallelProgramming
             Parallel.For(0, number, count =>
             {
                 Console.WriteLine($"value of count = {count}, thread = {Thread.CurrentThread.ManagedThreadId}");               
-                Thread.Sleep(10000);
+                Thread.Sleep(1000);
             });
         }
 
