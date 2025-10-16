@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnumsExample\EnumOne.cs" />
-    <Compile Include="ParallelProgramming\Parallel.cs" />
+    <Compile Include="ParallelProgramming\ParallelClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

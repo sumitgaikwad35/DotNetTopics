@@ -10,8 +10,8 @@ namespace DotNetTopics
         {
             
             Console.WriteLine("Hello Form Main");
-            Parallel.Print();
-            EnumOne.Print();
+            ParallelClass.Run();
+            
             Console.ReadKey();
         }
     }
